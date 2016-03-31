@@ -17,10 +17,10 @@
 $(call inherit-product, device/samsung/trltespr/full_trltespr.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/emotion/configs/nfc_enhanced.mk)
 
-# Inherit common CM phone.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit common EMOTION phone.
+$(call inherit-product, vendor/emotion/configs/common_full_phone.mk)
 
 PRODUCT_DEVICE := trltespr
-PRODUCT_NAME := cm_trltespr
+PRODUCT_NAME := emotion_trltespr
