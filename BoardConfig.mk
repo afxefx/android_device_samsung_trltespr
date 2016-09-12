@@ -22,6 +22,9 @@ TARGET_KERNEL_VARIANT_CONFIG := apq8084_sec_trlte_spr_defconfig
 
 TARGET_UNIFIED_DEVICE := true
 
+#Recovery
+TW_THEME := portrait_hdpi
+
 # Radio
 BOARD_RIL_CLASS := ../../../device/samsung/trltespr/ril
 
