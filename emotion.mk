@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/samsung/trltespr/full_trltespr.mk)
+$(call inherit-product, device/samsung/trlteusc/full_trlteusc.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/emotion/configs/nfc_enhanced.mk)
@@ -22,5 +22,5 @@ $(call inherit-product, vendor/emotion/configs/nfc_enhanced.mk)
 # Inherit common EMOTION phone.
 $(call inherit-product, vendor/emotion/configs/common_full_phone.mk)
 
-PRODUCT_DEVICE := trltespr
-PRODUCT_NAME := emotion_trltespr
+PRODUCT_DEVICE := trlteusc
+PRODUCT_NAME := emotion_trlteusc

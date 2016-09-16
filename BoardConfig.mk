@@ -15,10 +15,10 @@
 # inherit from common trlte
 -include device/samsung/trlte-common/BoardConfigCommon.mk
 
-TARGET_OTA_ASSERT_DEVICE := trltespr,SM-N910P
+TARGET_OTA_ASSERT_DEVICE := trlteusc,SM-N910R4
 
 # Kernel
-TARGET_KERNEL_VARIANT_CONFIG := apq8084_sec_trlte_spr_defconfig
+TARGET_KERNEL_VARIANT_CONFIG := apq8084_sec_trlte_usc_defconfig
 
 TARGET_UNIFIED_DEVICE := true
 
@@ -26,7 +26,7 @@ TARGET_UNIFIED_DEVICE := true
 TW_THEME := portrait_hdpi
 
 # Radio
-BOARD_RIL_CLASS := ../../../device/samsung/trltespr/ril
+BOARD_RIL_CLASS := ../../../device/samsung/trlteusc/ril
 
 # inherit from the proprietary version
--include vendor/samsung/trltespr/BoardConfigVendor.mk
+-include vendor/samsung/trlteusc/BoardConfigVendor.mk
