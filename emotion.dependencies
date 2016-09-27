@@ -1,7 +1,7 @@
 [
   {
     "remote":"emotroid",
-    "repository": "Emotroid-Rom/android_device_samsung_trlte-common",
+    "repository": "afxefx/android_device_samsung_trlte-common",
     "target_path": "device/samsung/trlte-common",
     "branch": "mm"
   }
