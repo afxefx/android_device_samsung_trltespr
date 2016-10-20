@@ -11,7 +11,7 @@ ro.telephony.ril_class=trlteRIL
 telephony.lteOnCdmaDevice=1
 
 # Fingerprint
-ro.build.description=trlteusc-user 6.0.1 MMB29M N910R4TYU1CPC5 release-keys
-ro.build.fingerprint=samsung/trlteusc/trlteusc:6.0.1/MMB29M/N910R4TYU1CPC5:user/release-keys
+ro.build.description=trlteusc-user 6.0.1 MMB29M N910R4USC1CPI2 release-keys
+ro.build.fingerprint=samsung/trlteusc/trlteusc:6.0.1/MMB29M/N910R4USC1CPI2:user/release-keys
 ro.product.device=trlteusc
 ro.product.model=SM-N910R4
